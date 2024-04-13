@@ -42,11 +42,10 @@ go version
 ### Download and build binaries
 ```
 MONIKER="YOUR MONIKER"
-cd $HOME
 rm -rf seda-chain
 git clone https://github.com/sedaprotocol/seda-chain.git
 cd seda-chain
-git checkout v0.0.5
+git checkout v0.0.7
 ```
 
 ### Build binaries
@@ -190,7 +189,7 @@ seda-chaind tx staking create-validator \
 There have been no updates at the moment, as soon as they come out, we will immediately add them to this section.
 
 Current network:seda-1-testnet
-Current version:v0.0.5
+Current version:v0.0.7
 ```
 
 ### Useful commands
